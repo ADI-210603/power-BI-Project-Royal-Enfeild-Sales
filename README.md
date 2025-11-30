@@ -1,139 +1,163 @@
-🏍️ Royal Enfield Bike Sales Dashboard
-This Power BI dashboard presents a multi-page interactive analysis of Royal Enfield bike sales across India. Each page is dedicated to a specific bike model, showcasing unique KPIs, visuals, and filters. The project is built to demonstrate advanced Power BI features including navigation, DAX calculations, dynamic visuals, and storytelling with data.
+Royal Enfield Sales Dashboard – Power BI 
+
+This repository contains the updated and enhanced version of my Royal Enfield Sales Dashboard built in Power BI.
+The project now includes interactive navigation, bike-wise detail pages, and a comprehensive Insights Overview section — designed to showcase end-to-end dashboard development skills for real business scenarios.
 
 
 
-🧰 Tools & Technologies
-Power BI Desktop
+🎯 Project Objective
 
-DAX (Data Analysis Expressions)
+To create a fully interactive Power BI dashboard that provides a complete overview of Royal Enfield bike sales across India, including:
 
-Custom Visuals & Slicers
+Bike-wise performance
 
-Interactive Page Navigation
+Yearly sales trends
 
+Revenue insights
 
+City-level distribution
 
-📁 Project Structure
-File: Royal Enfield Dashboard.pbix
+Category comparison
 
-Pages: 9 pages, each dedicated to a Royal Enfield model:
-
-Hunter 350
-
-Classic 350
-
-Bullet 350
-
-Meteor 350
-
-Interceptor 650
-
-Continental GT 650
-
-Guerrilla 450
-
-Himalayan 450
-
-Shotgun 650
+Interactive page navigation
 
 
 
+Key Features 
 
-🔍 Key Features
-✅ Individual Bike Analysis Pages
-Each bike page includes:
+⭐ 1. Interactive Home Page
 
-bike image
+A redesigned home page showing all Royal Enfield bike models
+
+Each bike image is clickable, navigating to its dedicated detail page
+
+Clean layout with branding and modern UI
+
+
+⭐ 2. Dedicated Bike Detail Pages
+
+Each bike (e.g., Bullet 350, Classic 350, Hunter 350, Himalayan 450, etc.) has its own page showing:
 
 Total Units Sold
 
-Total Revenue (based on price × units sold)
+Total Revenue
 
 Sales Rank
 
-Year-wise units sold trend (line/area chart)
+Year-wise Units Sold Trend
 
-Revenue by city (bar chart)
+Revenue by City
 
-Bike details:
+Bike Category, Engine CC & Price
 
-Category
+High-resolution bike images for better visual presentation
 
-Engine CC
+Left/Right arrow buttons for easy navigation between bike pages
 
-Price
-
-Navigation buttons (← →) to switch between bikes
+Home button available on every page to return instantly to the main menu
 
 
+⭐ 3. Advanced Navigation System
+
+Consistent Home icon on all pages
+
+Smooth page transitions
+
+Ability to browse between bikes without returning to the home page
 
 
-🧠 Smart Visuals
-Bike images change dynamically per page
+⭐ 4. Final Insights Overview Page
 
-Filters and slicers update all metrics in real-time
+A complete summary of the entire dataset, including:
 
-Slicer for selecting year on each page
+Total Units Sold
 
+Total Revenue
 
+Average Price
 
+Sales Ranking Table
 
+Yearly Sales Trend
 
-🔢 DAX-Based Measures
-Custom DAX used for:
+Bike-wise Sales Comparison
 
-Revenue Calculation
+Category-wise Units Sold
 
-Sales Rank
+Revenue by City (with map visualization)
 
-Dynamic Year Filter Column
+Home button included for quick navigation
 
-
-
-
-🎯 KPIs Tracked Per Bike
-KPI	                                Description
-Total Units Sold	        Total bikes sold for each model
-Total Revenue            	Revenue from sales per model
-Rank	                    Revenue rank among all bikes
-Revenue by City          	Sales amount distributed by location
-Units Sold by Year	      Trends over 2021, 2022, 2023, and 2024
+This page acts as a management summary for decision makers.
 
 
 
+📊 Tools & Technologies
+
+Power BI Desktop
+
+Power Query for data cleaning
+
+DAX for calculated measures
+
+Custom navigation buttons & images
+
+High-quality bike PNGs integrated for a modern UI
 
 
-🧭 Navigation Features
-Back and Next buttons to move between bike pages
-
-Uniform layout across all 9 pages for consistent user experience
-
-Filters and visuals remain contextual to the selected model
-
-
-
-
-
-💡 Learning Outcomes
-Power BI storytelling across multiple pages
-
-Dynamic visuals using DAX
-
-Visual consistency and UX design in dashboards
-
-Effective use of filters and page navigation
-
-Business performance tracking by product
+📁 Dashboard Structure
+📂 Royal Enfield Sales Dashboard
+│
+├── Home Page (Clickable Bike Cards)
+├── Bullet 350 – Detail Page
+├── Classic 350 – Detail Page
+├── Hunter 350 – Detail Page
+├── Meteor 350 – Detail Page
+├── Shotgun 650 – Detail Page
+├── Interceptor 650 – Detail Page
+├── Continental GT 650 – Detail Page
+├── Himalayan 450 – Detail Page
+├── Guerrilla 450 – Detail Page
+│
+└── Insights Overview Page (Final Summary)
 
 
 
+🔍 What You Can Analyze
 
-📂 How to Use
-Open the .pbix file in Power BI Desktop
+Which bike sells the most (and why)
 
-Use the arrow buttons to explore each bike's performance ( Ctrl + click )
+Cities generating highest revenue
 
-Filter by year to analyze trends
+Growing/declining sales across years
 
-Hover over visuals to see detailed insights
+Category-wise market preference
+
+Rank comparison across bike models
+
+Pricing impact on sales
+
+
+
+🚀 Why This Project Stands Out
+
+Professional multi-page UI
+
+Portfolio-ready design
+
+Realistic brand-style dashboard
+
+Interactive, dynamic, visually rich
+
+Represents actual business-level sales reporting
+
+
+
+🏁 Conclusion
+
+This upgraded dashboard demonstrates my ability to build fully interactive, multi-page Power BI solutions with:
+
+✔ Stylish UI
+✔ Intuitive navigation
+✔ Strong analytical insights
+✔ Real-world use case implementation
